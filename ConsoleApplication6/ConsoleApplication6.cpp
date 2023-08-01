@@ -196,20 +196,6 @@ int main(void)
 {
     setlocale(LC_ALL, "RUS");
 	OneLinkedList lib;
-	/*cout << lib.head->count << endl;
-	lib.push_back(3);
-	cout << lib.head->count << endl;
-	lib.push_back(8);
-	lib.push_back(8);
-	lib.push_back(8);
-	lib.push_back(8);
-	cout << lib.head->count << endl;
-	lib.insert(3, 898);
-	cout << lib.head->count << endl;
-	lib.pop_front();
-	lib.pop_back();
-	cout << lib.head->count << endl;
-	lib.erase(2);*/
 	cout << lib.head->count << endl;
 	lib.push_back(8);
 	lib.push_back(8);
