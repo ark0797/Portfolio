@@ -1,4 +1,5 @@
 ﻿#include <iostream>
+#include <list>
 using namespace std;
 
 // Модификация двусвязного списка такая, что ссылка next последнего элемента ведет на первый
@@ -196,7 +197,6 @@ public:
 
 int main(void)
 {
-    using namespace std;
     LinkedList digits;
     int a[] = {1, 2, 3, 5, 7, 11, 13, 17, 19, 23};
     int size_a = sizeof(a) / sizeof(int);
