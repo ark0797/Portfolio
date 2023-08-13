@@ -1,4 +1,5 @@
 # Sorting of wagons lite
+#https://contest.yandex.ru/contest/45468/problems/14/
 
 n = int(input())
 sp = list(map(float, input().split()))
