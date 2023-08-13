@@ -1,16 +1,21 @@
-# This is a sample Python script.
+from collections import deque
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+dq = deque([1, 2, 3, 4, 5])
+print(dq)
+dq1 = deque()
+try:
+    dq1.pop()
+except IndexError as err:
+    print(err)
 
+dq1 = deque((1, 2, 3))
+dq1.insert(1, 100)
+print(dq1)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+data = list(map(int, input().split()))  # этот список в программе не менять
+buff = deque([], maxlen = 10)
+for elem in data:
+    buff.appendleft(elem)
+print(buff.pop(), end = ' ')
+print(buff.pop(), end = ' ')
+print(buff.pop(), end = ' ')
