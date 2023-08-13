@@ -1,4 +1,5 @@
 # Determining the correct bracket sequence via using a stack
+#https://contest.yandex.ru/contest/45468/problems/12/
 
 s = input()
 stack = []
