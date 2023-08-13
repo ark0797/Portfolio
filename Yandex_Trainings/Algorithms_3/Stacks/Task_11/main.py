@@ -1,4 +1,5 @@
 # Just simple Stack Implementation on dynamic array with standard methods
+#https://contest.yandex.ru/contest/45468/problems/11/
 
 stack = []
 s = input()
