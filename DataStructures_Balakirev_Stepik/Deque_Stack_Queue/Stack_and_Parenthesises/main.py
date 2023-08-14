@@ -1,3 +1,5 @@
+# выделение выражений из строки внутри скобок квадратных и круглых
+
 from collections import deque
 
 def get_sub_eq(eq_str):
