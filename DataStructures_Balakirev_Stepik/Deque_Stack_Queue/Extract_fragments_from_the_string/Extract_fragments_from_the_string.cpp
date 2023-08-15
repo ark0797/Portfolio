@@ -37,6 +37,5 @@ int main()
 		cout << st.top() << " ";
 		st.pop();
 	}*/
-    return 0;
+	return 0;
 }
-

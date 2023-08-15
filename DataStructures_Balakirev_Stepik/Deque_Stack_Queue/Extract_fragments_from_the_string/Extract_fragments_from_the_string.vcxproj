@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{77d2b6f7-1b88-4049-9696-6cdb39f3b054}</ProjectGuid>
-    <RootNamespace>ConsoleApplication2</RootNamespace>
+    <ProjectGuid>{1ab08d5e-768e-408c-b6ce-1fd22a0fe089}</ProjectGuid>
+    <RootNamespace>Extractfragmentsfromthestring</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ConsoleApplication2.cpp" />
+    <ClCompile Include="Extract_fragments_from_the_string.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
